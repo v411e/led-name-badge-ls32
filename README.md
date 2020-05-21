@@ -100,9 +100,11 @@ shows a bicycle crossing the display in left-to-right and right-to-left (as a se
 
 ![LED Mini Board](photos/bicycle.gif)
 
-    python3 ./led-badge-11x44.py -s8 -m5 "   :aHEART0:      :aHEART1:      :aHEART2:      :aHEART3:      :aHEART3:      :aHEART3:      :aHEART2:      :aHEART1:      :aHEART0:      :aHEART0:      :aHEART0:      :aHEART1:      :aHEART2:      :aHEART1:      :aHEART0:      :aHEART1:      :aHEART2:      :aHEART1:      :aHEART0:      :aHEART0:      :aHEART0:      :aHEART0:      :aHEART0:"
+```
+python3 ./led-badge-11x44.py -s8 -m5 "   :aHEART0:      :aHEART1:      :aHEART2:      :aHEART3:      :aHEART3:      :aHEART3:      :aHEART2:      :aHEART1:      :aHEART0:      :aHEART0:      :aHEART0:      :aHEART1:      :aHEART2:      :aHEART1:      :aHEART0:      :aHEART1:      :aHEART2:      :aHEART1:      :aHEART0:      :aHEART0:      :aHEART0:      :aHEART0:      :aHEART0:" ":aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART3::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART2::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART1::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0::aHEART0:"
+```
 
-shows a simple animation of a slowly beating heart on the first message, and a blinking heart on the second message.
+shows a simple animation of a single slowly beating heart on the first message, and multiple beating hearts on the second message.
 
     python3 ./led-badge-11x44.py --list-names
 
